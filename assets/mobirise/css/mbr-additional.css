@@ -1550,7 +1550,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #333333;
+  background-color: #f1343b;
 }
 .cid-rgveJrpa3z button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1774,7 +1774,11 @@ body {
   color: #767676 !important;
 }
 .cid-rgv8UJFlD0 {
-  background-image: url("../../../assets/images/background4.jpg");
+  background-image: url("../../../assets/images/46192580-2055715084488929-1683783671460397056-n-2000x1500.jpg");
+}
+.cid-rgv8UJFlD0 .mbr-text,
+.cid-rgv8UJFlD0 .mbr-section-btn {
+  text-align: center;
 }
 .cid-rgv92mlrPD {
   padding-top: 90px;
