@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
 
 
@@ -21,7 +20,7 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
@@ -43,17 +42,17 @@ body {
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 3.2rem;
+  font-size: 2.4rem;
 }
 .display-7 {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.2rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 1.6rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -77,9 +76,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -659,14 +658,14 @@ a:hover {
   background-color: #f5f5f5;
   box-shadow: none;
   color: #565656;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1.2rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 1.6rem;
 }
 .form-control,
 .form-control:focus {
@@ -2050,6 +2049,12 @@ body {
 .cid-rgv8o6AtRh .mbr-overlay ~ .container-slide {
   z-index: auto;
 }
+.cid-rgv8o6AtRh H2 {
+  text-align: right;
+}
+.cid-rgv8o6AtRh P {
+  text-align: center;
+}
 .cid-qTkAaeaxX5 {
   padding-top: 30px;
   padding-bottom: 15px;
@@ -3089,8 +3094,8 @@ body {
   color: #ffffff;
 }
 .cid-rgvnYsKYun {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-rgvnYsKYun .mbr-section-subtitle {
@@ -3163,6 +3168,67 @@ body {
 .cid-rgvnYsKYun .media-container-row {
   -webkit-flex-direction: row-reverse;
   flex-direction: row-reverse;
+}
+.cid-rhggwjlh5x {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #efefef;
+}
+@media (min-width: 992px) {
+  .cid-rhggwjlh5x .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rhggwjlh5x .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-rhggwjlh5x .mbr-text {
+  color: #232323;
+}
+.cid-rhggwjlh5x .mbr-text B {
+  color: #232323;
+}
+.cid-rhgg9dXU1j {
+  padding-top: 0px;
+  padding-bottom: 75px;
+  background-color: #efefef;
+}
+.cid-rhgg9dXU1j .card-img {
+  background-color: #fff;
+}
+.cid-rhgg9dXU1j .card-box {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+.cid-rhgg9dXU1j h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-rhgg9dXU1j p {
+  text-align: left;
+}
+.cid-rhgg9dXU1j .mbr-text {
+  color: #767676;
+}
+.cid-rhgg9dXU1j .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rhgg9dXU1j .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-rhgg9dXU1j .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+    -webkit-flex: 0 0 20%;
+  }
 }
 .cid-rgvnqpFoL0 {
   padding-top: 30px;
