@@ -6764,51 +6764,96 @@ body {
 .cid-rjDahbeJJX {
   padding-top: 105px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/background4.jpg");
+  background-image: url("../../../assets/images/mbr-1-1920x1280.jpg");
 }
-.cid-rjDb1rmhJN {
-  padding-top: 90px;
-  padding-bottom: 90px;
+.cid-rk8GINaTDy {
+  padding-top: 0px;
+  padding-bottom: 15px;
   background-color: #efefef;
 }
-.cid-rjDb1rmhJN h4 {
+.cid-rk8GINaTDy .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rk8GINaTDy .mbr-text {
+  color: #767676;
+}
+.cid-rk8GINaTDy .card {
+  display: -webkit-flex;
+  position: relative;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.cid-rk8GINaTDy .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-rk8GINaTDy .card-wrapper .card-img {
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  -webkit-flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+}
+.cid-rk8GINaTDy .card-wrapper .card-img .mbr-overlay {
+  background-color: #efefef;
+  display: none;
+  transition: opacity .3s;
+}
+.cid-rk8GINaTDy .card-wrapper .card-img .mbr-section-btn {
+  display: flex;
+  position: absolute;
+  transition: opacity .3s;
+  width: 100%;
+  margin: auto;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+}
+.cid-rk8GINaTDy .card-wrapper .card-img img {
+  width: 100%;
+}
+.cid-rk8GINaTDy .card-wrapper .card-box {
+  background-color: #ffffff;
+  padding: 0 2rem 2rem 2rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.cid-rk8GINaTDy .card-wrapper .card-box h4 {
   font-weight: 500;
-  color: #ffffff;
-}
-.cid-rjDb1rmhJN p {
-  color: #ffffff;
-}
-.cid-rjDb1rmhJN .card {
-  margin-bottom: 2rem;
-}
-.cid-rjDb1rmhJN .card-img {
-  border-radius: 0;
-  padding: 2rem 2rem 0 2rem;
-  background-color: #149dcc;
-}
-.cid-rjDb1rmhJN .card-img span {
-  font-size: 100px;
-  color: #ffffff;
-}
-.cid-rjDb1rmhJN .card-box {
-  padding-bottom: 2rem;
-  background-color: #149dcc;
-  background: linear-gradient(#149dcc, transparent);
-}
-.cid-rjDb1rmhJN .card-box .card-title {
-  margin: 0;
-  padding: 2rem 2rem 0 2rem;
-}
-.cid-rjDb1rmhJN .card-box .mbr-text {
   margin-bottom: 0;
-  padding: 2rem 2rem 0 2rem;
+  padding-top: 2rem;
 }
-.cid-rjDb1rmhJN .card-box .mbr-section-btn {
-  padding-top: 1rem;
-}
-.cid-rjDb1rmhJN .card-box .mbr-section-btn a {
-  margin-top: 1rem;
+.cid-rk8GINaTDy .card-wrapper .card-box p {
   margin-bottom: 0;
+  padding-top: 1.5rem;
+}
+.cid-rk8GINaTDy .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-rk8GINaTDy .popup-btn .mbr-overlay {
+  display: block !important;
+  opacity: 0;
+}
+.cid-rk8GINaTDy .popup-btn .mbr-section-btn {
+  height: 100%;
+  display: -webkit-flex !important;
+  opacity: 0;
+}
+.cid-rk8GINaTDy .popup-btn:hover .mbr-overlay {
+  opacity: .5;
+}
+.cid-rk8GINaTDy .popup-btn:hover .mbr-section-btn {
+  opacity: 1;
 }
 .cid-rjDrIpwDJ8 {
   padding-top: 30px;
@@ -8061,7 +8106,7 @@ body {
 .cid-rjJfU83zoL {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-image: url("../../../assets/images/background52.jpg");
+  background-image: url("../../../assets/images/background55.jpg");
 }
 .cid-rjJfU83zoL h4 {
   text-align: left;
