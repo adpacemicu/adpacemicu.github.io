@@ -6114,7 +6114,7 @@ body {
 .cid-rjD4dunB5N {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-image: url("../../../assets/images/background514.jpg");
+  background-image: url("../../../assets/images/background520.jpg");
 }
 .cid-rjD4dunB5N h4 {
   text-align: left;
@@ -13878,7 +13878,7 @@ body {
 .cid-rBJmaLBJmp {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-image: url("../../../assets/images/background514.jpg");
+  background-image: url("../../../assets/images/background520.jpg");
 }
 .cid-rBJmaLBJmp .testimonial-text {
   font-style: italic;
@@ -14039,7 +14039,7 @@ body {
   color: #ffffff;
 }
 .cid-rBKcXihRZy .card-title {
-  color: #232323;
+  color: #ffffff;
 }
 .cid-rBKcXihRZy .b-descr {
   color: #ffffff;
@@ -14084,57 +14084,45 @@ body {
     margin: 1rem 0 0 0;
   }
 }
-.cid-rBKixemjSb {
+.cid-rBKraPJsBW {
   padding-top: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
-.cid-rBKixemjSb h4 {
+.cid-rBKraPJsBW h4 {
   width: 85%;
   font-weight: 500;
   margin-bottom: 0;
 }
-.cid-rBKixemjSb p {
+.cid-rBKraPJsBW p {
   color: #767676;
 }
-.cid-rBKixemjSb .card-wrapper {
-  border-top: 1px solid #232323;
+.cid-rBKraPJsBW .card-wrapper {
+  border-top: 1px solid #efefef;
   background-color: #ffffff;
   position: relative;
   justify-content: unset;
 }
-.cid-rBKixemjSb .card-wrapper .card-box {
+.cid-rBKraPJsBW .card-wrapper .card-box {
   padding: 2rem 2rem 2rem 0;
   width: 100%;
 }
-.cid-rBKixemjSb .card-wrapper .card-box .top-line {
+.cid-rBKraPJsBW .card-wrapper .card-box .top-line {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.cid-rBKixemjSb .card-wrapper .card-box .bottom-line {
+.cid-rBKraPJsBW .card-wrapper .card-box .bottom-line {
   width: 85%;
 }
 @media (max-width: 767px) {
-  .cid-rBKixemjSb .card-wrapper .card-box .bottom-line {
+  .cid-rBKraPJsBW .card-wrapper .card-box .bottom-line {
     width: 100%;
   }
-  .cid-rBKixemjSb .card-wrapper .card-box .bottom-line p {
+  .cid-rBKraPJsBW .card-wrapper .card-box .bottom-line p {
     text-align: center;
     margin: 1rem 0 0 0;
   }
-}
-.cid-rBKixemjSb H2 {
-  color: #232323;
-}
-.cid-rBKixemjSb .cost {
-  color: #ffffff;
-}
-.cid-rBKixemjSb .card-title {
-  color: #232323;
-}
-.cid-rBKixemjSb .b-descr {
-  color: #ffffff;
 }
 .cid-rBKjFae1IC {
   padding-top: 45px;
