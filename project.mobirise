@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Ad Pacem-English",
-    "currentPage": "events.html",
+    "currentPage": "Journals.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -44,7 +44,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 369,
+    "uniqCompNum": 383,
     "versionPublish": "4.9.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -548,7 +548,7 @@
             }
           },
           "_name": "content6",
-          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/adpacemlogo-black-417x2613.png\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Hello World!</b><br><br><b>We are Ad Pacem, a Bi-annual Journal and Student Association at International Christian University under the Department of Public Policy and Social Research</b></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/adpacemlogo-black-417x2610.png\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Hello World!</b><br><br><b>We are Ad Pacem, a Bi-annual Journal and Student Association at International Christian University under the Department of Public Policy and Social Research</b></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rgIRSCTIAq",
           "_anchor": "content6-21",
           "_protectedParams": [],
@@ -1142,7 +1142,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "About Us",
-        "order": 21
+        "order": 22
       },
       "components": [
         {
@@ -1723,7 +1723,7 @@
             }
           },
           "_name": "features12",
-          "_customHTML": "<section class=\"features12\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"60\" step=\"1\" value=\"34\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Ad Pacem</h2>\n        <h3 class=\"mbr-section-subtitle pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            is a Latin term for \"Towards Peace\"</h3>\n\n        <div class=\"media-container-row pt-5\">\n            <div class=\"block-content align-right\">\n                <div class=\"card pl-3 pr-3\" mbr-class=\"{'pb-5':cardsAmount > 2}\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                             <span mbr-icon class=\"mbri-upload mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Environment</h4>\n                        </div>\n                    </div>                \n\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Numerous environmental issues face our world today from climate change to water security. Research on the planet as well as securitization of resources falls under this domain.\n                        </p>\n                    </div>\n                </div>\n\n                <div class=\"card pl-3 pr-3\" mbr-if=\"cardsAmount > 2\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Civil Society</h4>\n                        </div>\n                    </div>\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Work related to community and grassroots movements comprises the civil society domain. This includes research on humanitarian groups, charities, and other non-governmental organizations.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-figure m-auto\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/adpacemlogo-black-417x2614.png\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"block-content align-left\">\n                <div class=\"card pl-3 pr-3\" mbr-class=\"{'pb-5':cardsAmount > 2}\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                             <span mbr-icon class=\"mbri-features mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Peace in Other Domains</h4>\n                        </div>\n                    </div>                \n\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Any other research related to public policy or peace studies and enhancing understanding within these fields that doesn't come under any other area would fall within this category.</p>\n                    </div>\n                </div>\n\n                <div class=\"card pl-3 pr-3\" mbr-if=\"cardsAmount > 2\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-sites mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                State and Non-State Actors</h4>\n                        </div>\n                    </div>\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Research within the field of international relations dealing with either state actors, such as governments or regional governance as well as non-state actors falls within this domain.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features12\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"60\" step=\"1\" value=\"34\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-2 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Ad Pacem</h2>\n        <h3 class=\"mbr-section-subtitle pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            is a Latin term for \"Towards Peace\"</h3>\n\n        <div class=\"media-container-row pt-5\">\n            <div class=\"block-content align-right\">\n                <div class=\"card pl-3 pr-3\" mbr-class=\"{'pb-5':cardsAmount > 2}\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                             <span mbr-icon class=\"mbri-upload mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Environment</h4>\n                        </div>\n                    </div>                \n\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Numerous environmental issues face our world today from climate change to water security. Research on the planet as well as securitization of resources falls under this domain.\n                        </p>\n                    </div>\n                </div>\n\n                <div class=\"card pl-3 pr-3\" mbr-if=\"cardsAmount > 2\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-drag-n-drop2 mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Civil Society</h4>\n                        </div>\n                    </div>\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Work related to community and grassroots movements comprises the civil society domain. This includes research on humanitarian groups, charities, and other non-governmental organizations.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-figure m-auto\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/adpacemlogo-black-417x2611.png\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"block-content align-left\">\n                <div class=\"card pl-3 pr-3\" mbr-class=\"{'pb-5':cardsAmount > 2}\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                             <span mbr-icon class=\"mbri-features mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                Peace in Other Domains</h4>\n                        </div>\n                    </div>                \n\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Any other research related to public policy or peace studies and enhancing understanding within these fields that doesn't come under any other area would fall within this category.</p>\n                    </div>\n                </div>\n\n                <div class=\"card pl-3 pr-3\" mbr-if=\"cardsAmount > 2\">\n                    <div class=\"mbr-card-img-title\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-sites mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"mbr-crt-title\">\n                            <h4 class=\"card-title py-2 mbr-crt-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".mbr-crt-title\">\n                                State and Non-State Actors</h4>\n                        </div>\n                    </div>\n                    <div class=\"card-box\">\n                        <p class=\"mbr-text mbr-section-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-section-text\">\n                            Research within the field of international relations dealing with either state actors, such as governments or regional governance as well as non-state actors falls within this domain.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rjykAnxbbu",
           "_anchor": "features12-22",
           "_protectedParams": [],
@@ -1932,7 +1932,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Under Construction",
-        "order": 19
+        "order": 20
       },
       "components": [
         {
@@ -2483,7 +2483,7 @@
       "settings": {
         "meta_descr": "Web Site Maker Description",
         "title": "Error Page404",
-        "order": 20
+        "order": 21
       },
       "components": [
         {
@@ -3034,7 +3034,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Contact Us",
-        "order": 22
+        "order": 23
       },
       "components": [
         {
@@ -3665,7 +3665,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "The Board Members",
-        "order": 18
+        "order": 19
       },
       "components": [
         {
@@ -4357,7 +4357,7 @@
       "settings": {
         "meta_descr": "Web Creator Description",
         "title": "Events",
-        "order": 17
+        "order": 18
       },
       "components": [
         {
@@ -5180,7 +5180,7 @@
       "settings": {
         "meta_descr": "Call for submissions for Ad Pacem essay!",
         "title": "Call for Submissions!",
-        "order": 16
+        "order": 17
       },
       "components": [
         {
@@ -6064,7 +6064,7 @@
       "settings": {
         "meta_descr": "Blog Content of Ad Pacem",
         "title": "Blogs",
-        "order": 15
+        "order": 16
       },
       "components": [
         {
@@ -6804,7 +6804,7 @@
       "settings": {
         "meta_descr": "Frequently Answered Questions",
         "title": "FAQ",
-        "order": 14
+        "order": 15
       },
       "components": [
         {
@@ -7425,7 +7425,7 @@
       "settings": {
         "meta_descr": "A rainbow amidst the rain, a 1 on 1 interview with Mami Sasaki and LGBTQ+ Community in Japan",
         "title": "A rainbow amidst the rain",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
@@ -8525,7 +8525,7 @@
       "settings": {
         "meta_descr": "A song of peace: The Estonian history by Kalika Kastein",
         "title": "Thoughts on Peace and the Singing Revolution",
-        "order": 12
+        "order": 13
       },
       "components": [
         {
@@ -9347,7 +9347,7 @@
       "settings": {
         "meta_descr": "Remembering not \"Solving\"",
         "title": "Remembering not \"Solving\"",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -10197,7 +10197,7 @@
       "settings": {
         "meta_descr": "Lorena Rodriguez's blog entry on peace through farming. ",
         "title": "Returning to earth, so I return to myself",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -11036,7 +11036,7 @@
       "settings": {
         "meta_descr": "Maria Santa Maria's approach on sustainability on Mingei movement in the midst of ways to preserve it.",
         "title": "Constructing linear myths and constructing peace",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -11920,7 +11920,7 @@
       "settings": {
         "meta_descr": "Elizabeth Gamarra's entry on Colombian Peace Process",
         "title": "The Colombian Peace Process",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -12899,7 +12899,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "Journals",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -13432,6 +13432,19 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
+                "tags": "2020, January, Latest",
+                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mbr-3-1920x1275.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-3-1920x1275-800x531.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"Journal7.html\">The Human Aspects of Safety Culture in Sendai, Japan</a>",
+                "active": true
+              },
+              {
                 "tags": "October",
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
@@ -13445,7 +13458,7 @@
                 "active": false
               },
               {
-                "tags": "October",
+                "tags": "2019",
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -13458,7 +13471,7 @@
                 "active": false
               },
               {
-                "tags": "May",
+                "tags": "2019",
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -13468,10 +13481,10 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "<a href=\"Journal1.html\">The Colombian Peace Process: &nbsp;Does Peace need to be rethought? &nbsp;</a><br>",
-                "active": true
+                "active": false
               },
               {
-                "tags": "May, Recent",
+                "tags": "2019",
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -13484,7 +13497,7 @@
                 "active": false
               },
               {
-                "tags": "July",
+                "tags": "2019",
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -13589,7 +13602,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Inivisible Children",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -14835,7 +14848,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Japanese and Chinese Perceptions of Official Visits to Yasukuni Shrine ",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -15629,7 +15642,7 @@
       "settings": {
         "meta_descr": "\"Palestine: Present and Future\"\nA dialogue with the Ambassador of Palestine in Japan\n",
         "title": "A Dialogue with Palestinian Amabassador to Japan",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -16674,7 +16687,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "What is Peace?",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -17385,7 +17398,7 @@
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Human Security and Return Migration",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -18751,7 +18764,7 @@
       "settings": {
         "meta_descr": "",
         "title": "The Colombian Peace Agreement",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -19686,6 +19699,860 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "rE5lT88mtu",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "Journal7.html": {
+      "settings": {
+        "meta_descr": "Towards Behavioral Insights and Fostering a Culture of Disaster Risk Reduction",
+        "title": "The Human Aspects of Safety Culture in Sendai, Japan",
+        "order": 1,
+        "header_custom": "",
+        "footer_custom": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".navbar": {
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px",
+              "padding": ".5rem 0"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "display": "-webkit-flex",
+                "align-items": "center",
+                "justify-content": "center",
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important",
+                "-webkit-align-items": "center",
+                "-webkit-justify-content": "center"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              "display": "-webkit-inline-flex",
+              "align-items": "center",
+              "-webkit-align-items": "center",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              }
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "-webkit-align-items": "center",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  },
+                  "a": {
+                    "display": "inline-flex"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              "&.navbar-expand": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "-webkit-flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0",
+                "-webkit-flex-shrink": "0"
+              }
+            },
+            ".navbar-collapse": {
+              "flex-basis": "auto",
+              "-webkit-flex-basis": "auto"
+            },
+            ".nav-link:hover, .dropdown-item:hover": {
+              "color": "@itemsHoverColor !important"
+            }
+          },
+          "_name": "menu2",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global not-draggable once=\"menu\" position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#767676\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#333333\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{\n        'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent\n        }\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/adpacemlogo-black-417x261.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                    <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.co\">\n                        MOBIRISE\n                    </a>\n                </span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,\n                'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-black\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>\n                        Home</a>\n                </li>\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link link text-black dropdown-toggle\" href=\"aboutus.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\"><span class=\"mbri-info mbr-iconfont mbr-iconfont-btn\"></span>\n                        About Us\n                    </a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item\" href=\"aboutus.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\"><span class=\"mbri-sun2 mbr-iconfont mbr-iconfont-btn\"></span>Ad Pacem</a><a class=\"text-black dropdown-item\" href=\"theboardmembers.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>The People Behind</a></div>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"contactus.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-help mbr-iconfont mbr-iconfont-btn\"></span>\n                        Contact Us</a></li><li class=\"nav-item\"><a class=\"nav-link link text-black\" href=\"events.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mbri-calendar mbr-iconfont mbr-iconfont-btn\"></span>\n                        Events</a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black dropdown-toggle\" href=\"https://mobirise.co\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\"></span>\n                        Publications</a><div class=\"dropdown-menu\"><a class=\"text-black dropdown-item\" href=\"Blogs.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Blog</a><a class=\"text-black dropdown-item\" href=\"Journals.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">Journals</a><a class=\"text-black dropdown-item\" href=\"faq.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\">FAQ</a></div></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary-outline\" href=\"https://adpacemicu.github.io/jp/\" data-app-placeholder=\"Type Text\"><span class=\"mbrib-globe mbr-iconfont mbr-iconfont-btn\"></span>日本語\n                    </a></div>\n        </div>\n    </nav>\n</section>",
+          "_cid": "rj2Qn1yLe0",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu2-a9"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-2-1920x1275.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">The Human Aspects of Safety Culture in <br>Sendai, Japan:</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">Towards Behavioral Insights and Fostering a Culture of Disaster Risk Reduction</h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content5-ae",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rNTNid9B6V",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#767676",
+              "p": {
+                "background": "@crdColor"
+              }
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content14",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\">Two days before Typhoon Hagibis bore down on the Tokyo area in October 2019, I cycled to the nearest grocery store to stock up on bottled water and canned goods. As I filled my basket, I took stock of my fellow shoppers: were they just busy commuters, or was that anxious undertone to their demeanors due to similar concerns about the incoming typhoon? Was I imputing emotion where none existed? As a foreigner in Japan, I do my best to take my cues from the people around me, but it is not uncommon that I misread the cultural and linguistic cues. I wondered if my fellow shoppers were also preparing for the typhoon, or if I was overreacting to the energetic local weather reporting.</p><p class=\"p-3\"> The morning of the typhoon, I packed a small bag with my important documents, snacks and warm clothing, just in case I needed to leave my home. I surveyed my apartment to put away anything which might be damaged by unexpected exposure to the elements. I saved the location to the nearest evacuation center on my phone in offline mode.  And then I waited out the typhoon, anxiously exchanging text messages with friends near and far until the storm passed, in the wee hours of the night.  The next day, I ventured out mid-morning. The sky was cloudless, blue, and full of sun. The streets were clean, with nary a downed tree branch in sight, and I marveled anew at the efficiency of Japanese society. As I walked around, everything seemed normal. I thought about my elaborate preparations and the alarmed messages I had exchanged the night before, and I felt… silly. What had all the fuss been about? Clearly there had been nothing to worry about.&nbsp;</p><p class=\"p-3\">The following weekend, I went to Sendai, the major city of the Tohoku region in northeastern Japan.  My study group toured Arahama Elementary School, which had sheltered hundreds of school children and local residents in a coastal community during what would become Japan’s worst natural disaster in living memory, the March 11, 2011 earthquake and tsunami. Per emergency protocol, after the earthquake the school served as the assembly and evacuation area for the surrounding residents. Due to the Arahama community’s vulnerable coastal location, the emergency plan called for evacuation to the 4th-story rooftop in case of a tsunami. Indeed, the tsunami warning went out almost immediately following the earthquake, and was difficult to miss due to the ubiquity of Japanese emergency loudspeakers and telecommunications.  However, despite the best information, communication, preparation, and operation (by the school’s confidence-inspiring principal, under whose leadership the emergency protocol had been updated to provide for the rooftop evacuation and under whose charge all of the schoolchildren were safely evacuated), a not-insignificant number of Arahama residents failed to respond appropriately.  They came to the school, but did not climb to the upper levels, outside of the tsunami range. Or, they came to the school to collect their children and return home. Or they did not come to the school – the designated tsunami evacuation area – at all. While those who were on-site on the school’s lower floors were able to climb to safety once they saw the advancing wave, most who were not on the school’s premises perished in the tsunami’s onslaught.&nbsp;</p><p class=\"p-3\">Arahama is regarded as a model, because so much went right. Hundreds of lives were saved thanks to up-to-date, appropriate, and soundly implemented emergency procedures. Neither information nor leadership were lacking; the school’s principal and teachers knew that a tsunami was expected, and led the children and Arahama residents to safety. And yet, despite this “best case scenario” for the worst day of their lives, still most of the survivors on that rooftop lost friends and family. Perhaps some – the elderly and infirm – were simply unable to evacuate in time. But it seems that a good number received the tsunami warning with sufficient time to act, and had the capacity to do so, but chose a different course – one that cost them their lives. Probably they had lived through years of earthquakes, tsunami warnings, and evacuation messages. Up until that day, not much life-threatening had come of them, perhaps. Like me, maybe they felt a bit silly afterwards, wondering if they had overreacted. So, this time, perhaps they thought, “oh, this again. All will be well, as it always has been.” Experience had taught them that they would be fine, and so they stayed home.&nbsp;</p><p class=\"p-3\">In contrast to coastal Arahama, inland Okawa Elementary School suffered tremendous loss of life due to indecisive leadership and insufficient emergency preparations. The school had not updated its emergency protocol to account for a possible tsunami. Although the school management and teachers received timely information to evacuate to higher ground due to a tsunami warning, they struggled to evaluate the risks and take appropriate action. The school was four kilometers from the sea, and no tsunami in living memory had ever reached that far before. Indeed, the particular destructiveness of the tsunami upon the evacuees had much to do with certain unfortunate geographic impacts which had not been previously considered. Pine trees which were planted along the beach as a windbreaker were torn up and swept away by the tsunami, accumulating inland and creating a barrier.  This obstruction of broken, piled-up trees diverted the raging wave away from its anticipated trajectory along the nearby Kitagami River. Instead, the tsunami was channeled at full force directly onto the unprepared students and teachers assembled outside the school building.&nbsp;</p><p class=\"p-3\">It is perhaps unfairly easy, in hindsight, to criticize the actions of Okawa Elementary School. The administration had not sufficiently prioritized regular, thorough reviews and rehearsals of its emergency procedures. Despite the urgings of parents and students to ascend to higher ground, the leadership equivocated, costing the lives of those placed in their care. They had the information about the tsunami and the capacity to ascend to higher ground, but like those who perished in Arahama, they did not act. Even in this “worst case” scenario, the problem was not technical in nature – it was not due to insufficient warning or to lack of accessible higher ground to which to escape. Rather, the issue was the human aspect. Japan may have the most high-tech, sophisticated disaster detection and communication systems in the world; it may have appropriately safe evacuation areas for every neighborhood; it may have information and awareness campaigns in multiple languages; but all of this is only as good as its influence on human behavior. What I learned in Sendai is that technical solutions must always consider the human aspect, or they will fail. &nbsp;</p><p class=\"p-3\">How can we understand decision-making in a disaster situation? It would be misguided to focus only on what happened during those crucial minutes between when the earthquake struck and when the tsunami arrived, or the decisions made by individuals. Of course, these individual reactions were, in the moment, the difference between life and death; but they exist within a greater web of social interaction, organization and decision-making. We call this web “governance,” and institutions such as the Arahama or Okawa schools are situated in a complex web of polycentric governance structures: the authority of the national, prefectural, municipal and school levels overlap and interact with each other, at times creating synergies, at other times leaving gaps, and sometime contradicting one another or causing unintended side effects.</p><p class=\"p-3\">Political science, the field of social research which studies how human beings organize themselves into social structures for governance, and how decision-making occurs within or with regards to such structures, offers several frameworks for analysis. According to the rational choice approach, individuals or the groups which they form (called “political actors”) respond to incentives and will choose the course of action seemingly in line with maximizing their utility. In the structural-functional approach, actors’ behavior is heavily guided and conditioned by the social structures and institutional customs and norms in which they operate. Finally, the cultural approach – often criticized as a “black box” into which to assign outcomes that do not fit other models – attempts to ascribe behavior to a broader context of attitudes, values and beliefs to which actors attach identity and meaning (Lichbach).  I will consider in turn how each of these approaches may guide our understanding of behavior in a disaster risk reduction context, and discuss how international policymakers have attempted to account for each approach in the current global policy formulations, the <i>Sendai Framework for Disaster Risk Reduction 2015-2030 and its preceding Hyogo Framework for Action. &nbsp;</i></p><p class=\"p-3\">Rational choice theory, drawing heavily on the field of economics, posits that actors behave rationally according to incentives to maximize satisfaction (“utility”) for a particular situation. The weaknesses of this analytic approach are well-known: defining “rational” can quickly become tautological, as “satisfaction” is determined to be whatever choice the actor actually made. For example, if I choose to build my home in a coastal area vulnerable to natural disasters without purchasing appropriate insurance and taking other measures to safeguard my life and property, then according to rational choice theory, the costs of such measures must be disproportionately high when weighed against the risk. The rational actor – behaving according to utility analysis – would prefer to allocate those resources elsewhere, rather than to disaster insurance.  The government, however, can change this rational-utility calculus through incentives to produce the desired outcomes; by subsidizing disaster readiness improvements, by fining buildings which fail to modernize their infrastructure to better resist earthquakes, or taxing land in certain disaster-prone areas to reduce its desirability. The Sendai Framework encourages governments to empower multisectoral stakeholders to introduce incentive-based initiatives for disaster preparedness at various points in the document, including in article 27:</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content14-ag",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rNTOw4pOnb",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>(d) To encourage the establishment of necessary mechanisms and incentives to ensure high levels of compliance with the existing safety-enhancing provisions of sectoral laws and regulations, including those addressing land use and urban planning, building codes, environmental and resource management and health and safety standards, and update them, where needed, to ensure an adequate focus on disaster risk management…</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rNTPcox1fU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-ah"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#767676",
+              "p": {
+                "background": "@crdColor"
+              }
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content14",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\">While it can be challenging to apply rational choice theory to the psychological “fog of war” which occurs in the field when disaster strikes and actors are called upon to make quick decisions in states of high psychological strain, the approach fits comfortably into an analysis of the disaster preparations. Why did Okawa Elementary administrators not review or rehearse their emergency protocol with greater attention or frequency? Perhaps leadership performance was judged primarily on students’ exam outcomes, with safety procedures falling always to a lower priority. With only so many hours in the school day and few incentives to do more than the basic requirements, perhaps administrators focused their attention on the issues which mattered most in the short-term to students, parents, and oversight committees. It is possible that they may not have been incentivized by the rewards structure to focus on emergency preparedness – and so they did not.&nbsp;</p><p class=\"p-3\">&nbsp;&nbsp;Policy from the rational choice approach assumes that desired behavior can be achieved through the correct incentives, because actors will behave to maximize their utility within a given context. So, for example, a given institution will prioritize a desired outcome such as safety procedures if the rewards or punishment structure is appropriately calibrated. What rational choice theory does not do, however, is examine the characteristics of the structures it incentivizes. While Okawa Elementary did indeed have safety procedures in place, they were inappropriate. They were incentivized to create one; but it was generic and did not address the needs of the school. Nevertheless, in the chaos of the minutes following the earthquake, the school leadership relied on the guidance of this plan, and teachers and students relied on the traditional lines of authority and followed the instructions to stay in place even as some pleaded to escape to higher ground.  Political science would call our attention to the influence of functional structures in this situation; actors tend to be guided by the structures and institutional norms already in place, which can influence behavior in irrational ways. It might have been rational to disregard the generic emergency plan in the face of new, urgent information about the tsunami and to flee to higher ground, but the teachers and students of Okawa Elementary did not do so. They were influenced by the functional structure of their existing emergency protocol and their institutional hierarchy, which caused them to rely on established decision-making structures emanating from the principal downwards, and to follow the emergency plan approved for their school by the local authorities.&nbsp;</p><p class=\"p-3\">To address the urgency of establishing clear functional structures to guide behavior, the Sendai Framework discusses the importance of developing appropriate disaster risk reduction standards and institutionalizing them, including across the relevant stakeholders and decision-making structures. The references in the Sendai Framework are numerous, including the below illustrative examples:</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content14-ai",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rNTPjjk2DJ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>27 (g) To establish and strengthen government coordination forums composed of relevant stakeholders at the national and local levels, such as national and local platforms for disaster risk reduction, and a designated national focal point for implementing the Sendai Framework for Disaster Risk Reduction 2015–2030. It is necessary for such mechanisms to have a strong foundation in national institutional frameworks with clearly assigned responsibilities and authority to, inter alia, identify sectoral and multisectoral disaster risk, build awareness and knowledge of disaster risk through sharing and dissemination of non-sensitive disaster risk information and data, contribute to and coordinate reports on local and national disaster risk, coordinate public awareness campaigns on disaster risk, facilitate and support local multisectoral cooperation (e.g. among local governments) and contribute to the determination of and reporting on national and local disaster risk management plans and all policies relevant for disaster risk management. These responsibilities should be established through laws, regulations, standards and procedures…\n<br><br><div>36 (a) Civil society, volunteers, organized voluntary work organizations and community-based organizations to participate, in collaboration with public institutions, to, inter alia, provide specific knowledge and pragmatic guidance in the context of the development and implementation of normative frameworks, standards and plans for disaster risk reduction; engage in the implementation of local, national, regional and global plans and strategies…\n</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-ak",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rNTPOtLCYk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#767676",
+              "p": {
+                "background": "@crdColor"
+              }
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content14",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\">It seems likely that had Okawa Elementary had a better plan in place, developed to more comprehensively account for disaster risks and to outline a localized, non-generic response plan for the school, many of the students and teachers might still be alive. In addition, if more civil society actors had been involved in contributing to and familiarizing themselves with the plan during its development process, perhaps an overwhelming number of individual teachers, parents, and students might have been empowered by their role in the plan’s development to successfully advocate appropriate disaster responses in the crucial minutes between the earthquake and the tsunami.  This same logic could be applied as well to the parents and community members of Arahama who chose not to evacuate to the school’s rooftop. Perhaps if they had participated in the emergency protocol’s development, they might have been socialized into the structure of the plan, and felt part of the institution of the protocol, rather than independent from it. Their behavior might have been successfully conditioned by the functional structure of the plan as a result of feeling invested in it. Participating in the plan during its inception might have created the identity and habit to continue to participate when disaster actually struck. It is possible that even more lives might have been saved.&nbsp;</p><p class=\"p-3\">The final analytic dimension to consider is that of culture. This approach in the social sciences can be controversial, since it is difficult to define and easy to essentialize. It can become a “catch-all” category into which researchers assign outcomes they are unable to account for according to other models (Lichbach). The Sendai and Hyogo frameworks mention culture numerous times, calling upon actors to develop a “culture of prevention” or a “culture of safety” for disaster risk reduction. Arahama and Okawa Elementary schools were both located in the Japanese home islands, and so presumably shared the same national culture; and they were both in the Sendai region, and so presumably shared the same local culture as well. Could there have been differences in their organizational cultures which accounted for such different disaster outcomes? How do we go about even identifying or measuring a culture of safety prevention within a given organization?</p><p class=\"p-3\">Researchers by and large fail to agree on a standard definition for safety culture, but generally identify it as a subfield of organizational culture and describe it as the shared attitudes, values and perceptions towards safety held by organizational groups (Cole, 14; OECD).  The U.S. Department of Energy traces the roots of safety culture as a field of academic inquiry to the Chernobyl nuclear accident of 1986, and it has been studied in other high-risk industries as well, such as sea-faring and natural resource extraction. Research shows that safety culture results from as well as drives risk-related practices (OECD); however, to date researchers have been unable to isolate the specific cause-and-effect in this “which came first, the chicken or the egg” conundrum.  Given the difficulty of deriving a specific definition for “safety culture” itself, the term is used to describe and measure psychological and behavioral characteristics of organizational groups that can prevent or, alternately, contribute to accidents (Cole, 17; OECD).&nbsp;</p><p class=\"p-3\">National culture can influence safety culture; for example, a recent report by the Organization for Economic Co-operation and Development (OECD) noted that power distance, uncertainty avoidance, collectivism, masculinity-femininity and short-term orientation are cultural dimensions of shared values and behaviors that research has found to differ between nations, and also impact safety culture. Considering Japan, the national culture tends to emphasize hierarchy and power differentials in interpersonal contexts; situations with uncertain social consequences are generally to be avoided; and there is a strong focus on acting more as a member of a group rather than as an individual. In the case of Okawa Elementary, these cultural factors may have contributed to the inability of those who were advocating for moving to higher ground to successfully make their case, or to break off from the group and act independently.  However, we must not overemphasize national culture for the failure at Okawa, because other national cultural characteristics, such as a long-term orientation and the high value placed on collaboration, are positively correlated with healthy safety cultures (OECD) and could be said to be countervailing factors responsible for the success at Arahama. While it is important to understand the national cultural context, it is not the only factor influencing a particular organization’s safety culture. The different outcomes at Arahama and Okawa attest to this; Arahama Elementary clearly had a stronger safety culture than Okawa, as evidenced by its robust and rehearsed emergency protocol. Many factors may have contributed: geography (Arahama is coastal, whereas Okawa is inland, and therefore the former faced higher tsunami risks), perhaps a history of updating procedures and conducting drills for multiple disaster scenarios, attentive local authorities or engaged parents, good leadership or healthy group dynamics between the teachers. Many of these factors could also be described by functional-structural or rational choice analysis; hence the difficulty of applying a purely cultural approach to behavior analysis.&nbsp;</p><p class=\"p-3\">Owing to the limitations of each of the above outlined approaches for understanding and influencing human and organizational behavior, the current trend in global policy thinking is to combine them, utilizing the strengths of each analytic framework for a more holistic application. In April 2019, the OECD published a report entitled Delivering Better Policies Through Behavioral Insights, which endeavors to explain how actors’ “rational” decision-making is shaped by context and cognitive or psychological factors. Human behavior is shaped by biases in decision-making, and the decision-making environment and available information influence “rational” actions in systemic ways. According to the report, some examples of how behavioral insights apply to safety culture include: the messenger effect, namely, who is delivering certain information (an authority figure? a peer?) will influence how the message is received and what action is taken; social benchmarking and feedback, in which actors adjust their behavior according to what others are doing and the feedback they receive; and social norms which inform actors about what the desired actions and outcomes are, and how much deviation from the norm is permitted.  This “behavioral insight” approach heavily modifies the “rational choice” theory to include structural, cultural, and psychological factors, and may aid policymakers in disaster risk reduction by synthesizing the different approaches to successfully account for the “human aspect.”&nbsp;</p><p class=\"p-3\">When I examine my own actions to prepare for Typhoon Hagibis in October 2019, I can see how heavily influenced I was by certain behavioral insights. I looked to my fellow shoppers to judge whether my stocking up on supplies was justified, and I further social benchmarked by reaching out to peers. When I learned that the municipal government had decided to open evacuation shelters, I took this as an indication that the typhoon was serious, and I increased my preparations accordingly, in case I would need to evacuate. One might say that I behaved “rationally” to protect my personal security and property from risk, but I was also strongly influenced by living in a society with a strong culture of disaster preparation, and by many briefings about how to appropriately prepare for common natural disasters in Japan. Despite this successful impact on my behavior – I did, indeed, adequately prepare for the typhoon – the difficulty of appropriately influencing human risk perception and safety behavior is demonstrated by my reaction the following day. Instead of congratulating myself for my careful preparations, I discounted the appropriateness of my response. One cannot rest easily on the laurels of past achievements with regards to disaster risk reduction.  Even as the environmental extremes and technological solutions increase, the human mind grows comfortable and complacent. We must continue to look for new ways to remember.&nbsp;</p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content14-al",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rNTPVgeQ9u",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "color": "#767676",
+              "p": {
+                "background": "@crdColor"
+              }
+            }
+          },
+          "_name": "content14",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content14\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Card Color\" name=\"crdColor\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-12': cardsAmount == 1, 'col-md-4': cardsAmount == 3}\">\n                     <p class=\"p-3\">Bibliography</p><p class=\"p-3\">Cole, K. S., Stevens-Adams, S. M., &amp; Wenner, C. A. (2013, March). A Literature Review of Safety Culture. Retrieved from https://prod-ng.sandia.gov › techlib-noauth › access-control.cgi\n</p><p class=\"p-3\"><span style=\"font-size: 1rem;\">Cooper Ph.D., M. D. (2000). Towards a model of safety culture. Safety Science, 36(2), 111–136. https://doi.org/10.1016/S0925-7535(00)00035-7&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">de la Boutetiere, H., Rousseau, J.-B. G., &amp; Turnball, E. (2019, May). Improving workplace safety culture by addressing limiting mind-sets. Retrieved from https://www.mckinsey.com/business-functions/organization/our-insights/overcoming-limiting-mind-sets-to-improve-safety&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">Gunningham, N., &amp; Sinclair, D. (2014). The Impact of Safety Culture on Systemic Risk Management. European Journal of Risk Regulation : EJRR; Berlin, 5(4), 505–516.&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">Havold, Jon, &amp; Nesset, E. (2009). From safety culture to safety orientation: Validation and simplification of a safety orientation scale using a sample of seafarers working for Norwegian ship owners. Safety Science, (47), 305–326. https://doi.org/10.1016/j.ssci.2008.05.002&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">Lichbach, M. I., &amp; Zuckerman, A. S. (2009, February). Comparative Politics: Rationality, Culture, and Structure. https://doi.org/10.1017/CBO9780511804007&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">Linnemayr, S., Uscher-Pines, L., Abel, K. V., &amp; Nelson, C. (2016). Using Insights From Behavioral Economics to Strengthen Disaster Preparedness and Response. Disaster Medicine and Public Health Preparedness; Philadelphia, 10(5), 768–774. http://dx.doi.org.othmer1.icu.ac.jp:2048/10.1017/dmp.2016.29&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">Meinel, U., &amp; Höferl, K.-M. (2017). Non-Adaptive Behavior in the Face of Climate Change: First Insights from a Behavioral Perspective Based on a Case Study among Firm Managers in Alpine Austria. Sustainability; Basel, 9(7), 1132. http://dx.doi.org.othmer1.icu.ac.jp:2048/10.3390/su9071132&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">Noort, M. C., Reader, T. W., Shorrock, S., &amp; Kirwan, B. (2016). The relationship between national culture and safety culture: Implications for international safety culture assessments. Journal of Occupational and Organizational Psychology, 89(3), 515–538. https://doi.org/10.1111/joop.12139&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">OECD. (2019, April 16). Delivering Better Policies Through Behavioural Insights: New Approaches. Retrieved from https://www.oecd.org/competition/delivering-better-policies-through-behavioural-insights-6c9291e2-en.htm&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">Reader, T. W., Noort, M. C., Shorrock, S., &amp; Kirwan, B. (2015). Safety sans Frontières: An International Safety Culture Model. Risk Analysis, 35(5), 770–789. https://doi.org/10.1111/risa.12327&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">Reiman, T., &amp; Rollenhagen, C. (2014). Does the concept of safety culture help or hinder systems thinking in safety? Accident; Analysis and Prevention, 68, 5–15. http://dx.doi.org.othmer1.icu.ac.jp:2048/10.1016/j.aap.2013.10.033&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">Tear, M. J., Reader, T. W., Shorrock, S., &amp; Kirwan, B. (2020). Safety culture and power: Interactions between perceptions of safety culture, organisational hierarchy, and national culture. Safety Science, 121, 550–561. https://doi.org/10.1016/j.ssci.2018.10.014&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">Tharaldsen, J.-E., &amp; Haukelid, K. (2009). Culture and behavioural perspectives on safety – towards a balanced approach. Journal of Risk Research, 12(3–4), 375–388. https://doi.org/10.1080/13669870902757252&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">United Nations. (2005, January 22). Hyogo Framework for Action 2005-2015: Building the Resilience of Nations and Communities to Disasters. Retrieved from https://www.unisdr.org/we/inform/publications/1037&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">United Nations. (2015, March 18). Sendai Framework for Disaster Risk Reduction 2015-2030. Retrieved from https://www.unisdr.org/we/inform/publications/43291&nbsp;</span></p><p class=\"p-3\">\n<span style=\"font-size: 1rem;\">Uscher-Pines, L., Chandra, A., Acosta, J., &amp; Kellermann, A. (2012). Citizen Preparedness for Disasters: Are Current Assumptions Valid? Disaster Medicine and Public Health Preparedness; Philadelphia, 6(2), 170–173. http://dx.doi.org.othmer1.icu.ac.jp:2048/10.1001/dmp.2012.23&nbsp;</span></p>\n                </div>\n                <div class=\"col-12 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-class=\"{'col-md-6': cardsAmount == 2, 'col-md-4': cardsAmount == 3}\" mbr-if=\"cardsAmount > 1\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n                <div class=\"col-12 col-md-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline mbr-if=\"cardsAmount > 2\">\n                     <p class=\"p-3\">Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and mobile friendly websites in a few clicks.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content14-am",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rNTQsfZvXM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h4": {
+              "text-align": "left",
+              "font-weight": "500"
+            },
+            "p": {
+              "color": "#767676",
+              "text-align": "left",
+              "margin-bottom": "0"
+            },
+            ".card-img": {
+              "text-align": "left",
+              "-webkit-flex": "1 0 auto",
+              "flex": "1 0 auto",
+              "width": "auto"
+            },
+            ".card-img span": {
+              "font-size": "72px",
+              "color": "rgb(255, 51, 102)"
+            },
+            ".card-box": {
+              "padding-left": "1rem",
+              "word-break": "break-word",
+              "width": "100%"
+            },
+            "@media (max-width: 991px)": {
+              ".card-img": {
+                "text-align": "left",
+                "padding-bottom": "0.75rem"
+              },
+              ".card-box": {
+                "padding-left": "0"
+              }
+            }
+          },
+          "_name": "features9",
+          "_customHTML": "<section class=\"features9\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset> \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"media-container-row\">\n                    <div class=\"card-img pr-2\">\n                        <span mbr-icon class=\"mbr-iconfont mbri-clock\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">Date Published</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">January 18, 2020<br>1:30 pm Saturday, Tokyo (GMT+9)</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"media-container-row\">\n                    <div class=\"card-img pr-2\">\n                        <span mbr-icon class=\"mbr-iconfont mbri-key\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                            Keywords</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                           Disaster Risk Reduction, Safety, Sendai, Calamity</p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"media-container-row\">\n                    <div class=\"card-img pr-2\">\n                        <span mbr-icon class=\"mbri-desktop mbr-iconfont\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                            Unique Styles\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                           Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible.\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"media-container-row\">\n                    <div class=\"card-img pr-2\">\n                        <span mbr-icon class=\"mbri-touch mbr-iconfont\"></span>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title py-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-img\">\n                            Unlimited Sites\n                        </h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                           Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "features9-ab",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rNTN9qwMaq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            "& when not (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676",
+              "text-align": "left"
+            }
+          },
+          "_name": "content7",
+          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"50\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\"> \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#efefef\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>About the author</b><b><br></b>Florence Maher<br>Florence Maher is a Master’s degree candidate in Public Policy and Social Research and Rotary Peace Fellow at the International Christian University in Tokyo, Japan.<br></p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/unnamed-3-287x510.jpg\" alt=\"Mobirise\" title>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content7-aa",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rNTN72xIHW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".title": {
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "a:not([href]):not([tabindex])": {
+              "color": "#fff",
+              "border-radius": "3px"
+            },
+            "a.btn-white:not([href]):not([tabindex])": {
+              "color": "#333"
+            },
+            ".multi-horizontal": {
+              "flex-grow": "1",
+              "-webkit-flex-grow": "1",
+              "max-width": "100%"
+            },
+            ".input-group-btn": {
+              "display": "block",
+              "text-align": "center"
+            }
+          },
+          "_name": "form1",
+          "_customHTML": "<section class=\"mbr-section form1\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background4-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#c1c1c1\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Would you like to contribute to our Journal?</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    Fill out the form below or email us at: adpacem.icu@gmail.com<br></h3>\n            </div>\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div mbr-form class=\"media-container-column col-lg-8\">\n                    <div data-form-alert hidden>Thank you for filling out the form! We will get in touch with you shortly.</div>\n            \n                    <form class=\"mbr-form\" action=\"adpacem.icu@gmail.com\" method=\"post\" name=\"Mobirise Form\">\n                        <div class=\"row row-sm-offset\">\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"name\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"name\">Name</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"name\" data-form-field=\"Name\" required>\n                                </div>\n                            </div>\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"email\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"email\">Email</label>\n                                    <input type=\"email\" class=\"form-control\" name=\"email\" data-form-field=\"Email\" required>\n                                </div>\n                            </div>\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"phone\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"phone\">Phone</label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\">\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"form-group\" data-for=\"message\">\n                            <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"message\">Message</label>\n                            <textarea type=\"text\" class=\"form-control\" name=\"message\" rows=\"7\" data-form-field=\"Message\"></textarea>\n                        </div>\n            \n                        <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\">\n                            <a href type=\"submit\" class=\"btn btn-primary btn-form\">SEND FORM</a>\n                        </span>\n                    </form>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "form1-af",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rNTNngmm43",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".content": {
+              "@media (max-width: 767px)": {
+                "text-align": "center",
+                "> div:not(:last-child)": {
+                  "margin-bottom": "2rem"
+                }
+              }
+            },
+            ".media-wrap": {
+              "@media (max-width: 767px)": {
+                "margin-bottom": "1rem"
+              },
+              ".mbr-iconfont-logo": {
+                "font-size": "7.5rem",
+                "color": "#f36"
+              },
+              "img": {
+                "height": "6rem"
+              }
+            },
+            ".footer-lower": {
+              ".copyright": {
+                "@media (max-width: 767px)": {
+                  "margin-bottom": "1rem",
+                  "text-align": "center"
+                }
+              },
+              "hr": {
+                "margin": "1rem 0",
+                "border-color": "#fff",
+                "opacity": ".05"
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "flex-wrap": "wrap",
+                "justify-content": "flex-end",
+                "-webkit-justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.3rem",
+                  "color": "#fff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "justify-content": "center",
+                  "-webkit-justify-content": "center"
+                }
+              }
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked=\"\">\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\" checked=\"\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background4-1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    \n                        <img src=\"@PROJECT_PATH@/assets/images/adpacemlogo-white-2-192x120.png\" alt=\"\" title=\"\">\n                    \n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Address\n                </h5>\n                <p class=\"mbr-text\">International Christian University<br>3 Chome-3-１０−２ Ōsawa, Mitaka-shi, Tōkyō-to 181-8585</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Contacts\n                </h5>\n                <p class=\"mbr-text\">\n                    Email: adpacem.icu@gmail.com</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Our Partners</h5>\n                <p class=\"mbr-text\"><a href=\"https://www.facebook.com/Latinamerican-Community-ICU-2166098136743551/\" target=\"_blank\">Latin America </a><i><a href=\"https://www.facebook.com/Latinamerican-Community-ICU-2166098136743551/\" target=\"_blank\">Community</a></i><a href=\"https://www.facebook.com/Latinamerican-Community-ICU-2166098136743551/\" target=\"_blank\"> of ICU</a><br><a href=\"http://subsite.icu.ac.jp/pri/en/\" target=\"_blank\">Peace Research Institute</a><br><a href=\"https://rotaryicu.wordpress.com/?s=rot\" target=\"_blank\">Rotary Peace Fellows of ICU</a><br><a href=\"http://web.icu.ac.jp/cgs_e/\">Center For Gender Studies - ICU</a></p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">Ad Pacem<br>powered by MobiRise</p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.instagram.com/adpacem/\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.facebook.com/AdPacemICU\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon=\"\" class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "footer1-ad",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rNTNcWrgf9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
